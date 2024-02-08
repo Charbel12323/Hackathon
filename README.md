@@ -1,5 +1,6 @@
 # Hackathon
-Hidden Gems Of UOFC 🎓✨
+Hidden Gems Of UOFC 🎓✨ 
+
 Welcome to an exciting campus adventure at the University of Calgary! 🚀 Uncover the Hidden Gems of UOFC in this innovative web-based interactive gamification project designed to transform your campus experience into a thrilling scavenger hunt. Get ready to explore, discover, and engage with your academic community like never before! 🏫🔍
 
 🗺️ How It Works
