@@ -1,0 +1,202 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image:  linear-gradient(to top,black 0%,#2c5f2d 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    top : 0;
+    position: sticky;
+    height: 80px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+     
+}
+
+.navbar-container h1{
+    background-image: linear-gradient(to top,orange 0%,yellow 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+
+
+.navber_menu{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    text-align: none;
+   
+
+}
+
+
+
+.navbar__links{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 1rem;
+    width: 100%;
+ 
+}
+
+.navbar__item{
+    width: 200px;
+}
+
+
+.button{
+    font-size: 1rem;
+    background-image: linear-gradient(to top,black 0%,white 100%);
+    padding: 14px 32px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+    
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.button:hover{
+    background: purple;
+    transition: all 0.3s ease;
+    transform: scale(1.075);
+}
+
+.navbar__links:hover{
+    color: purple;
+    transition: all 0.3s ease;
+    transform: scale(1.075);
+
+}
+
+.main-content h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-content h3{
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top,#cae9ff 0%,#6a82fb 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.main-btn{
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    background-image: linear-gradient(to top,#ff0844 0%,#ffb199 100%);
+}
+
+
+.main-btn:hover{
+    transition: all 0.3s ease;
+    background: purple;
+    transform: scale(1.075);
+    cursor: pointer;
+}
+
+
+.main-btn a{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.main-content h2{
+    background-color: yellow;
+    background-image: linear-gradient(to top,#cae9ff 0%,#6a82fb 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content {
+    padding: 20px;
+    color: white;
+}
+
+.footer-image-container img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    padding: 200px;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+}
