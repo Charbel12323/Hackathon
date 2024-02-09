@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="srcipt.js" defer></script> <!-- Note: Typo corrected and defer attribute added -->
+    <script src="https://unpkg.com/html5-qrcode@2.0.9/dist/html5-qrcode.min.js" defer></script>
+</head>
+<body>
+    <div class="navbar-points">
+        <div class="navbar-container-points">
+            <h1>Points And Rewards</h1>
+            <ul class="navber_menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Contact Us</a>   
+                </li>
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>   
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="qr">
+        <button id="btn-scan-qr">Scan QR Code</button>
+        <div id="qr-reader" style="width:50px;height:50px;"></div>
+
+    </div>
+    <div class="points-box">
+        <p>Points: <span id="points">0</span></p>
+    </div>
+    <div class="table-badges">
+        <table id="badges">
+            <tr>
+                <td>
+                    <div id="treasure-explorer-container" class="treasure-container">
+                        <img id="treasure-explorer" src="bad1.png" alt="" style="display:none;">
+                    </div>
+                </td>
+                <td>
+                    <div id="kings-treasure-container" class="treasure-container">
+                        <img id="kings-treasure" src="bad2.png" alt="" style="display:none;">
+                    </div>
+                </td>
+                <td>
+                    <div id="lost-in-treasure-container" class="treasure-container">
+                        <img id="lost-in-treasure" src="bad3.png" style="display:none;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Treasure Explorer: <span id="treasure-explorer-value">0 / 30</span></td>
+                <td>King's Treasure:  <span id="kings-treasure-value">0 / 60</span></td>
+                <td>Lost In Treasure: <span id="lost-in-treasure-value">0 / 100</span></td>
+            </tr>
+        </table>
+        <button id="btn-add-points">Add 10 points</button>
+    </div>
+</body>
+</html>

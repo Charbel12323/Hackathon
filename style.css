@@ -51,7 +51,6 @@ body{
     list-style: none;
     text-align: none;
    
-
 }
 
 
@@ -264,5 +263,112 @@ body{
     color: white;
 }
 
-.lo
+#tooltip{
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    display: none;
+    z-index: 1000;
+    pointer-events: none;
+    font-size: 14px;
+}
 
+#infoModal {
+    position: fixed; /* or 'absolute' depending on your layout needs */
+    z-index: 1000; /* High value to ensure it appears on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none; /* Initially hidden */
+    background-color: rgba(0,0,0,0.4); /* Optional: for modal background */
+    align-items: center;
+    justify-content: center;
+}
+
+#infoContent {
+    background-color: #fefefe;
+    margin: auto; /* Center in the available space */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Or any specific width */
+    position: relative; /* For additional positioning inside the modal */
+}
+
+
+.points-box{
+    border: 5px solid;
+    width: 200px;
+    border-radius: 4px;
+    top: 0;
+
+}
+
+.points-box p{
+    color: white;
+}
+
+.table-badges{
+    border: 1px solid black;
+    width: 900px;
+    height: 300px;
+    margin-top: 100px;
+  
+}
+
+
+.table-badges td{
+    color: white;
+}
+
+#badges img{
+    padding-right: 100px;
+    border-radius: 50px;
+}
+
+.treasure-container {
+    background-color: black; /* Placeholder background */
+    width: 250px; /* Adjust based on your layout */
+    height: 250px; /* Adjust based on your layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.points-header{
+    color: white;
+    font-size: 3.5rem;
+    font-style: inherit;
+}
+
+.navbar-points{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    top : 0;
+    height: 80px;
+}
+
+.navbar-container-points{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+     
+    
+}
+
+.navbar-container-points h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.qr{
+    padding-top: 50px;
+}
